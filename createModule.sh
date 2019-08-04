@@ -63,7 +63,6 @@ case $lowercaseTemplate in
 
     `createModule $pagePath $name "index.vue"`
      
-     echo "66: $ignoreStore"
      if [ $ignoreStore == "false" ]
      then
      `createModule $storePath $name "index.js"`
