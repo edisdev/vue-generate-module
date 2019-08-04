@@ -1,0 +1,5 @@
+{
+  "pagePath": "./src/pages",
+  "componentPath": "./src/components",
+  "storePath": "./src/stores"
+}
