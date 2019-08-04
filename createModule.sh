@@ -42,11 +42,11 @@ function createModule {
 pagePath=$(getOption 'pagePath')
 componentPath=$(getOption 'componentPath')
 storePath=$(getOption 'storePath')
-ignoreStore=$(getOption  'ignoreStore')
+ignoreStore=$(getOption 'ignoreStore')
 name=$1
 
 
-if [!$name]
+if [ -z "$name" ]
 then
   echo "PLEASE TYPING MODULE NAME"
   exit -1
@@ -60,8 +60,11 @@ lowercaseTemplate=$(echo ${template} | tr '[:upper:]' '[:lower:]')
 case $lowercaseTemplate in
   p)
      echo "Creating pages ... Please waiting ..."
-     `createModule $pagePath $name "index.vue"`
-     if [ !$ignoreStore ]
+
+    `createModule $pagePath $name "index.vue"`
+     
+     echo "66: $ignoreStore"
+     if [ $ignoreStore == "false" ]
      then
      `createModule $storePath $name "index.js"`
      fi
