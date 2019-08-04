@@ -9,7 +9,7 @@ You need to specify in your app general path of pages and components. . You can 
     "pagePath": Directory path of all general pages located in your app. (for example: src/pages),
     "componentPath": Directory path of all components located in your app. (for example: src/components),
     "storePath": Directory path of stores located in your app. for example. ( src/stores),
-    "ignoreStore": You can to specify want to using store when creating page (default: true) (true - false)
+    "ignoreStore": You can to specify want to using store when creating page (default: false) (true - false)
   }
 ```
 

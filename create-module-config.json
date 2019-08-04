@@ -1,5 +1,6 @@
 {
   "pagePath": "./src/pages",
   "componentPath": "./src/components",
-  "storePath": "./src/stores"
+  "storePath": "./src/stores",
+  "ignoreStore": false
 }
