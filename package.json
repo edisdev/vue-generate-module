@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "create-module": "bash ./createModule.sh"
+    "create-module": "bash ./bash/createModule.sh"
   },
   "dependencies": {
     "core-js": "^2.6.5",

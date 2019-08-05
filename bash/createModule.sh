@@ -23,7 +23,7 @@ function readJson {
 
 function getOption {
   key=$1
-  echo `readJson create-module-config.json $key` || exit 1;  
+  echo `readJson ./bash/create-module-config.json $key` || exit 1;  
 }
 
 
