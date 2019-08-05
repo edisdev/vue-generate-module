@@ -1,5 +1,7 @@
 # vue-generate-module
 
+<img src="generate.gif"/>
+
 You need to specify in your app general path of pages and components. . You can this to <strong> create-module-config.json </strong> file.
 
  ### create-module-config.son
