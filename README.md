@@ -15,4 +15,4 @@ You need to specify in your app general path of pages and components. . You can 
 
 After editing the create-module-config.json file, you can run with the script code `(create-module script)` in the package.json file. When doing this, you should add module name to end of script. (  yarn create-module Home etc. / Home is pages / component name)
 
-Just , that's it :) Add
+Just , that's it :)
