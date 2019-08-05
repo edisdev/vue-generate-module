@@ -42,7 +42,8 @@ function createModule {
 pagePath=$(getOption 'pagePath')
 componentPath=$(getOption 'componentPath')
 storePath=$(getOption 'storePath')
-ignoreStore=$(getOption 'ignoreStore')
+defvalueIgnore="false"
+ignoreStore=${2:-$defvalueIgnore}
 name=$1
 
 
